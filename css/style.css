@@ -1,0 +1,311 @@
+html{
+	height: 100%;
+}
+body{
+	margin: 0;
+	height: 800px;
+	background-image: url(../images/bg_fix.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.header{
+	width: 100%;
+	height: 60px;
+	background-image: url(../images/texture-wood.jpg);
+	background-size: 300px 50px;
+
+}
+.asdf{
+    width: 262px;
+    height: 59px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-left: 150px;
+}
+}
+.header2{
+	background-color: #D9BB33;
+	width: 100%;
+	height: 10px;
+	border: 0.5px solid black;
+	box-shadow: 1px 3px 3px black;
+}
+.header3{
+	width: 100%;
+	height: 30px;
+	background-image: url(../images/grass-texture.jpg);
+	background-size: 300px 50px;
+}
+.header4{
+	background-color: rgba(0,0,0,0.3);
+	width: 100%;
+	height: 60px;
+	border: 1px solid black;
+	position: relative;
+	background-image: url(../images/ugol2.png);
+	background-repeat: repeat;
+	background-size: 2.7px;
+}
+.bt1{
+	border-radius: 30px;
+	width: 140px;
+	height: 27px;
+	color: #F7F0DD;
+	position: absolute;
+	left: 120px;
+	margin-top: 15px;
+	border:1px solid black;
+	background:linear-gradient(#0CCC53,#07a805);
+	
+}
+.bt1 div{
+	display: none;
+}
+.bt1:hover div{
+	background-color: rgba(0,0,0,0.7);
+	width: 150px;
+	height: 70px;
+	margin-top: 30px;
+	margin-left: -120px;
+	border-radius: 7px;
+	position: absolute;
+	display: inline-block;
+
+}
+
+.bt1:hover{
+	background: lime;
+	color: black;
+	
+}
+.bt2{
+	border-radius: 30px;
+	width: 140px;
+	height: 27px;
+	background-color: #07a805;
+	color: #F7F0DD;
+	position: absolute;
+	left: 290px;
+	margin-top: 15px;
+	border:1px solid black;
+	background:linear-gradient(#0CCC53,#07a805);
+}
+.bt2 div{
+	display: none;
+}
+.bt2:hover div{
+	background-color: rgba(0,0,0,0.7);
+	width: 150px;
+	height: 70px;
+	margin-top: 30px;
+	margin-left: -120px;
+	
+	border-radius: 7px;
+	position: absolute;
+	display: inline-block;
+
+}
+.bt2:hover{
+	background: lime;
+	color: black;
+}
+.bt3{
+	border-radius: 30px;
+	width: 140px;
+	height: 27px;
+	background-color: #07a805;
+	color: #F7F0DD;
+	position: absolute;
+	right: 120px;
+	margin-top: 15px;
+	border:1px solid black;
+	background:linear-gradient(#0CCC53,#07a805);
+}
+.bt3 div p{
+	display: none;
+}
+.bt3:hover div{
+	background-color: rgba(0,0,0,0.7);
+	width: 150px;
+	height: 70px;
+	margin-top: 30px;
+	margin-left: -120px;
+	border-radius: 7px;
+	position: absolute;
+	display: inline-block;
+
+}
+.bt3:hover{
+	background: lime;
+	color: black;
+
+}
+.bt4{
+	border-radius: 30px;
+	width: 140px;
+	height: 27px;
+	background-color: #07a805;
+	color: #F7F0DD;
+	position: absolute;
+	right: 280px;
+	border:1px solid black;
+	margin-top: 15px;
+	background:linear-gradient(#0CCC53,#07a805);
+}
+.bt4 div{
+	display: none;
+}
+.bt4:hover div{
+	background-color: rgba(0,0,0,0.7);
+	width: 150px;
+	height: 70px;
+	margin-top: 30px;
+	margin-left: -120px;
+	border-radius: 7px;
+	position: absolute;
+	display: inline-block;
+
+
+}
+.bt4:hover {
+	background: lime;
+	color: black;
+	
+}
+.box{
+	height: 700px;
+	max-width: 1050px;
+	margin:auto;
+	margin-top: 211px;
+	background-color: rgba(215,215,201,0.8);
+	border-radius: 10px;	
+	background-image: url(images/ugol2.png);
+	background-repeat: repeat;
+}
+.image{
+	position: absolute;
+	left: 525px;
+	top: -60px;
+}
+.box1{
+	width: 95%;
+	margin: auto;
+	height: 280px;
+	position: relative;
+}
+.ajnkar{
+	float: left;
+	margin-left: 70px;
+	padding-top: 35px;
+}
+.text1{
+	width: 33%;
+	height: 150px;
+	float: left;
+	margin-top: 20px;
+	position: relative; 
+	color: #4A5357;
+}
+.nkaridiv{
+	float: left;
+	width: 33%;
+	margin-top: 20px;
+}
+.p1{
+	position: absolute;
+	top: -137px;
+	left: 220px;
+	color: white;
+	font-size: 35px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.p2{
+	position: absolute;
+	top: -130px;
+	left: 250px;
+	color: white;
+	font-size: 60px;
+	line-height: 60px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+
+}
+.img1{
+	position: absolute;
+	top: -210px;
+	left: -50px;
+}
+.img2{
+	position: absolute;
+	top: -210px;
+	right:  -45px;
+}
+.box2{
+	width: 95%;
+	height: 250px;
+}
+.as{
+	margin-top: 10px;
+}
+.as:hover{
+	text-decoration: underline;
+}
+.b{
+	width: 755px;
+}
+.text1 a{
+	text-decoration: none;
+	color: green;
+	font-size: 20px;
+	display: inline;
+	position: absolute;
+	margin-top: -2px;
+}
+.menu{
+	padding-left: 8px;
+	padding-right: 10px; 
+	margin-top: 35px;
+	color: white;
+	display: inline-block;
+	border-right: 1px solid white; 
+	text-decoration: none;
+	
+}
+#a1{
+	color: lime;
+}
+#a5{
+	border: 0px;
+}
+#divabout{
+	margin-top: 17px;
+}
+span{
+	color: white;
+}
+#span3{
+	color: orange;
+}
+.h11{
+	margin-bottom: 0;
+}
+.h12{
+	margin-top:0;
+	margin-bottom: 5px;
+}
+.box3{
+	width: 90%;
+	margin: auto;
+	margin-top: 40px;
+	height: 90px;
+	border-radius: 50px;
+	border:8px solid #F3C038;
+	background-image: url(../images/texture-wood.jpg); 
+}
